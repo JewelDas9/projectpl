@@ -44,11 +44,11 @@ class Pl2
 				ch=s.charAt(i);
 				if(i%2==0)
 				{
-					System.out.print(Character.toLowerCase(ch));
+					System.out.print(Character.toUpperCase(ch));
 				}
 				else
 				{
-					System.out.print(Character.toUpperCase(ch));
+					System.out.print(Character.toLowerCase(ch));
 				}
 			}
 			System.out.println();
